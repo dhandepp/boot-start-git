@@ -2,6 +2,7 @@ package P1;
 
 import java.util.Scanner;
 
+/*Awful method */
 public class BinaryPalindrome {
 	
 	public static void main(String[] a){
