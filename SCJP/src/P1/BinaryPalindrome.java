@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class BinaryPalindrome {
 	
+	
+	/* Awful performance */
 	public static void main(String[] a){
 
 		 Scanner in = new Scanner(System.in);
