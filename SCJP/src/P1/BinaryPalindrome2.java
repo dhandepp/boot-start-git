@@ -1,5 +1,8 @@
 package P1;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class BinaryPalindrome2 {
@@ -7,10 +10,13 @@ public class BinaryPalindrome2 {
 	static long longLog;
 	static long i;
 	
-	public static void main(String args[]){
+	public static void main(String args[]) throws IOException{
+		
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		 Scanner in = new Scanner(System.in);
-			int n = in.nextInt();
-			int ar[] = new int[n];
+		//	int n = in.nextInt();		
+		int n=br.read();
+		int ar[] = new int[n];
 			
 			for (int i = 0; i < n; i++) {
 				ar[i] = in.nextInt();
