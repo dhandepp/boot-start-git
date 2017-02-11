@@ -5,7 +5,12 @@ import java.util.Scanner;
 /*Awful method */
 public class BinaryPalindrome {
 
+
 	//another change
+
+	
+	
+	/* Awful performance */
 	public static void main(String[] a){
 
 		 Scanner in = new Scanner(System.in);
