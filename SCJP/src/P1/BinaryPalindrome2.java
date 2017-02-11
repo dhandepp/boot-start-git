@@ -17,6 +17,7 @@ public class BinaryPalindrome2 {
 	static long longLog;
 	static long i;
 	
+	//agree to your changes
 	public static void main(String args[])  throws IOException{
 		 Scanner in = new Scanner(System.in);
 		 	BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
