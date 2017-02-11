@@ -1,5 +1,6 @@
 package P1;
 
+import java.io.Console;
 import java.util.Scanner;
 
 public class BinaryPalindrome2 {
@@ -9,7 +10,7 @@ public class BinaryPalindrome2 {
 	
 	public static void main(String args[]){
 		 Scanner in = new Scanner(System.in);
-			int n = in.nextInt();
+			int n =10;
 			int ar[] = new int[n];
 			
 			for (int i = 0; i < n; i++) {
